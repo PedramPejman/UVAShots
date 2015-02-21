@@ -31,5 +31,6 @@ if (n > 0) console.log(timeStamp() + " : No tickets found");
 else {
 	console.log(timeStamp() + " : GOT EM");
 	alert("TICKETS AVAILABLE");
+	clearInterval(reference);
 	}
 }
