@@ -39,7 +39,7 @@ var n = x.search("no more tickets");
 if (n > 0) console.log(timeStamp() + " : No tickets found");
 else {
 	console.log(timeStamp() + " : GOT EM");
-	sound = setInterval(makeNoise, 1000);
+	sound = setInterval(makeNoise, 100);
 	//alert("TICKETS AVAILABLE");
 	clearInterval(reference);
 	}
